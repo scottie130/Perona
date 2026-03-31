@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - PERSONA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html">
+                    <img src="logo.png" alt="PERSONA Logo" class="h-12 w-auto mr-3">
+                </a>
+                <a href="index.html" class="text-2xl font-bold text-persona-blue tracking-tight">PERSONA<span class="text-persona-gold">.</span></a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="deposit.html" class="text-persona-blue font-semibold hover:underline">Deposit</a>
+                <a href="plans.html" class="text-persona-blue font-semibold hover:underline">Plans</a>
+                <a href="login.html" class="bg-persona-blue text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Content -->
+    <div class="container mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-persona-blue mb-6">Welcome, Investor!</h1>
+        <p class="text-gray-500 mb-12">Here’s a quick overview of your account and investments.</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Current Plan -->
+            <div class="bg-white rounded-2xl shadow-lg p-6">
+                <h2 class="font-bold text-xl mb-2">Current Plan</h2>
+                <p class="text-gray-500 mb-4">Pro Trader</p>
+                <p class="text-gray-700 font-semibold">15% Monthly</p>
+            </div>
+
+            <!-- Account Balance -->
+            <div class="bg-white rounded-2xl shadow-lg p-6">
+                <h2 class="font-bold text-xl mb-2">Account Balance</h2>
+                <p class="text-gray-500 mb-4">Total Invested: $5,000</p>
+                <p class="text-gray-700 font-semibold">Available: $5,750</p>
+            </div>
+
+            <!-- Withdrawals -->
+            <div class="bg-white rounded-2xl shadow-lg p-6">
+                <h2 class="font-bold text-xl mb-2">Withdrawals</h2>
+                <p class="text-gray-500 mb-4">Last Withdrawal: $500</p>
+                <button class="bg-persona-gold text-blue-900 font-bold px-4 py-2 rounded-xl hover:shadow-lg transition">Request Withdraw</button>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <a href="deposit.html" class="bg-persona-blue text-white p-6 rounded-2xl flex items-center justify-center hover:bg-blue-700 transition font-bold">Make Deposit</a>
+            <a href="plans.html" class="bg-persona-gold text-blue-900 p-6 rounded-2xl flex items-center justify-center hover:shadow-lg transition font-bold">View Plans</a>
+        </div>
+    </div>
+
+</body>
+</html>

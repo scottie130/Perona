@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Plans - PERSONA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html">
+                    <img src="logo.png" alt="PERSONA Logo" class="h-12 w-auto mr-3">
+                </a>
+                <a href="index.html" class="text-2xl font-bold text-persona-blue tracking-tight">PERSONA<span class="text-persona-gold">.</span></a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="dashboard.html" class="text-persona-blue font-semibold hover:underline">Dashboard</a>
+                <a href="deposit.html" class="text-persona-blue font-semibold hover:underline">Deposit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Investment Plans -->
+    <div class="container mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-persona-blue mb-12 text-center">Choose Your Investment Plan</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Starter Plan -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:border-persona-blue transition-all group">
+                <h3 class="text-xl font-bold mb-2">Starter</h3>
+                <p class="text-gray-400 text-sm mb-6">Perfect for beginners</p>
+                <div class="text-5xl font-bold mb-8 group-hover:text-persona-blue transition">8% <span class="text-sm font-normal text-gray-500">/ Monthly</span></div>
+                <ul class="space-y-4 mb-10 text-gray-600">
+                    <li>Min Deposit: $500</li>
+                    <li>30 Days Duration</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <a href="deposit.html" class="w-full py-4 rounded-xl bg-gray-100 font-bold group-hover:bg-persona-blue group-hover:text-white transition block text-center">Invest Now</a>
+            </div>
+
+            <!-- Pro Trader Plan -->
+            <div class="bg-white p-8 rounded-3xl shadow-2xl border-4 border-persona-gold transform scale-105 relative">
+                <div class="absolute -top-5 left-1/2 -translate-x-1/2 bg-persona-gold text-blue-900 text-xs font-black px-4 py-1 rounded-full uppercase">Most Popular</div>
+                <h3 class="text-xl font-bold mb-2">Pro Trader</h3>
+                <p class="text-gray-400 text-sm mb-6">For serious growth</p>
+                <div class="text-5xl font-bold mb-8 text-persona-blue">15% <span class="text-sm font-normal text-gray-500">/ Monthly</span></div>
+                <ul class="space-y-4 mb-10 text-gray-600">
+                    <li>Min Deposit: $5,000</li>
+                    <li>90 Days Duration</li>
+                    <li>Priority Withdrawals</li>
+                    <li>Account Manager</li>
+                </ul>
+                <a href="deposit.html" class="w-full py-4 rounded-xl bg-persona-gold text-blue-900 font-bold hover:shadow-lg transition block text-center">Invest Now</a>
+            </div>
+
+            <!-- Elite Plan -->
+            <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:border-persona-blue transition-all group">
+                <h3 class="text-xl font-bold mb-2">Elite</h3>
+                <p class="text-gray-400 text-sm mb-6">Institutional Grade</p>
+                <div class="text-5xl font-bold mb-8 group-hover:text-persona-blue transition">25% <span class="text-sm font-normal text-gray-500">/ Monthly</span></div>
+                <ul class="space-y-4 mb-10 text-gray-600">
+                    <li>Min Deposit: $25,000</li>
+                    <li>180 Days Duration</li>
+                    <li>VIP Concierge</li>
+                </ul>
+                <a href="deposit.html" class="w-full py-4 rounded-xl bg-gray-100 font-bold group-hover:bg-persona-blue group-hover:text-white transition block text-center">Invest Now</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

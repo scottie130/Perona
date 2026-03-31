@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONA | Invest Smart. Grow Fast.</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .bg-persona-blue { background-color: #1E90FF; }
+        .text-persona-gold { color: #FFD700; }
+        .bg-persona-gold { background-color: #FFD700; }
+        .border-gold { border-color: #FFD700; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html">
+                    <img src="logo.png" alt="PERSONA Logo" class="h-12 w-auto mr-3">
+                </a>
+                <a href="index.html" class="text-2xl font-bold text-persona-blue tracking-tight">PERSONA<span class="text-persona-gold">.</span></a>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="hover:text-persona-blue transition">Home</a>
+                <a href="plans.html" class="hover:text-persona-blue transition">Plans</a>
+                <a href="about.html" class="hover:text-persona-blue transition">About</a>
+                <a href="contact.html" class="hover:text-persona-blue transition">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="login.html" class="text-persona-blue font-semibold hover:underline">Login</a>
+                <a href="register.html" class="bg-persona-blue text-white px-6 py-2 rounded-full hover:bg-blue-700 transition shadow-lg">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-persona-blue py-24 px-6 text-white text-center relative overflow-hidden">
+        <div class="container mx-auto relative z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Invest Smart. Grow Fast. <br><span class="text-persona-gold">Welcome to PERSONA.</span></h1>
+            <p class="text-lg md:text-xl mb-10 opacity-90 max-w-2xl mx-auto">Your trusted partner in Forex investment. Institutional-grade AI trading algorithms designed for your financial freedom.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="register.html" class="bg-persona-gold text-blue-900 px-10 py-4 rounded-xl font-bold text-lg hover:scale-105 transition shadow-xl">Start Investing Now</a>
+                <a href="plans.html" class="border-2 border-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-persona-blue transition">Explore Plans</a>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-blue-400 opacity-20 rounded-full"></div>
+    </header>
+
+    <!-- Investment Plans (same as previous code) -->
+    <!-- Footer (same as previous code, make sure logo also clickable here) -->
+    <footer class="bg-slate-900 text-white py-16 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="col-span-1 md:col-span-1">
+                <div class="flex items-center mb-6">
+                    <a href="index.html">
+                        <img src="logo.png" alt="PERSONA" class="h-10 w-auto mr-3 brightness-150">
+                    </a>
+                    <a href="index.html" class="text-2xl font-bold">PERSONA</a>
+                </div>
+                <p class="text-gray-400 leading-relaxed">Secure, transparent, and highly profitable Forex investments powered by proprietary AI.</p>
+            </div>
+            <!-- rest footer columns -->
+        </div>
+        <div class="container mx-auto mt-12 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            <p>Risk Warning: Trading Forex involves significant risk. Ensure you understand the risks before investing.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
